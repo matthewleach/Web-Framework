@@ -1,5 +1,5 @@
 # Project Title
 
-Notes on the project. 
+Notes on the project as this project is just a starting point.  
 
-Project URL: www._________.com
+Website: https://matthewleach.github.io/Web-Framework/
