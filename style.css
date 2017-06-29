@@ -13,11 +13,6 @@ img {
     width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
-
 /* -------- =Column Layout -------*/
 
 .container {
@@ -32,7 +27,7 @@ a {
 
 .container:after,
 .container-fluid:after {
-    content: " ";
+    content: "";
     display: table;
     clear: both;
 }
@@ -68,58 +63,16 @@ a {
 }
 
 .row:after {
-  content: " ";
+  content: "";
   display: table;
   clear: both;
 }
-
-
-/* === Header / Nav === */
-
-header {
-    background-color: #fff;
-    border-bottom: 1px solid grey;
-}
-
-header .logo p {
-    float: left;
-    font-size: 45px;
-    margin: 30px 12px;
-    font-family: 'Architects Daughter', cursive;   
-}
-
-header .logo p a {
-    color: grey;
-}
-
-header .logo img {
-    float: left;
-    width: 320px;
-    margin: 20px 12px;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
-header nav a {
-    color: grey;
-    font-size: 15px;
-    margin: 20px 15px 0 15px;
-}
-
-header nav a:hover {
-    color: red;
-}
-
 
 /* === Typography === */
 
 h1, h2 {
  font-family: 'Architects Daughter', cursive;   
 }
-
 
 h1 {
     font-size: 30px;
@@ -139,6 +92,55 @@ p {
     margin: 1rem 0 1.25rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+
+/* === Header / Nav === */
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid grey;
+}
+
+header .logo p {
+    float: left;
+    font-size: 45px;
+    margin: 30px 12px;
+    font-family: 'Architects Daughter', cursive;   
+}
+
+header .logo p a { 
+    color: grey; 
+}
+
+header .logo img {
+    float: left;
+    width: 320px;
+    margin: 20px 12px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: grey;
+    font-size: 15px;
+    margin: 20px 15px 0 15px;
+}
+
+header nav a:link    { color: gray;  }
+header nav a:visited { color: gray;   }
+header nav a:hover   { color: red; }
+header nav a:active  { color: orange;  }
 
 /* === Place Additional Styles Below Here === */
 
